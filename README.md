@@ -35,5 +35,31 @@ Start the server
   streamlit run /my-project/App/app.py  
 ```
 
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://link-to-project
+```
+
+Go to the project directory
+
+```bash
+  cd my-project
+```
+
+Install dependencies
+
+```bash
+  pip3 install -r requirements.txt  
+```
+
+Start the server
+
+```bash
+  streamlit run /my-project/App/app.py  
+```
+
 ### Creator
 Ashish Dabral
