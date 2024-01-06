@@ -9,6 +9,31 @@ Sentify is a web application that performs sentiment analysis on text input, det
 - Get additional information based on the sentiment classification.
 - User-friendly and intuitive interface.
 - Sentiment Visualizations
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://link-to-project
+```
+
+Go to the project directory
+
+```bash
+  cd my-project
+```
+
+Install dependencies
+
+```bash
+  pip3 install -r requirements.txt  
+```
+
+Start the server
+
+```bash
+  streamlit run /my-project/App/app.py  
+```
 
 ### Creator
 Ashish Dabral
