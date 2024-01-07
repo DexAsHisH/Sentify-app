@@ -2,6 +2,8 @@ import streamlit as st
 from autocorrect import Speller
 import matplotlib.pyplot as plt
 from transformers import pipeline
+import tensorflow as tf
+
 
 classifier = pipeline('sentiment-analysis', model="nlptown/bert-base-multilingual-uncased-sentiment")
 
@@ -80,3 +82,4 @@ if st.button("Analyze"):
 
 link = 'Created by [Ashish Dabral](https://www.linkedin.com/in/ashish-dabral-6428ba195/)'
 st.markdown(link, unsafe_allow_html=True)
+#print("TensorFlow version:", tf.__version__)
