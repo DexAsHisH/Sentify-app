@@ -82,4 +82,4 @@ if st.button("Analyze"):
 
 link = 'Created by [Ashish Dabral](https://www.linkedin.com/in/ashish-dabral-6428ba195/)'
 st.markdown(link, unsafe_allow_html=True)
-#print("TensorFlow version:", tf.__version__)
+print("TensorFlow version:", tf.__version__)
