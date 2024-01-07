@@ -1,5 +1,6 @@
-autocorrect==2.6.1
-matplotlib==3.7.1
-streamlit==1.29.0
-transformers==4.36.2
-tensorflow==2.15.0
+autocorrect
+matplotlib
+streamlit
+streamlit-option-menu
+transformers
+tensorflow
